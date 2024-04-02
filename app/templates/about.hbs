@@ -6,4 +6,9 @@
     By building a property rental site, we can simultaneously imagine traveling
     AND building Ember applications.
   </p>
+  {{!
+    IMPORTANT: notice how @route referes to the route name, not the path. In other words,
+    it points to "contact", and not "/getting-in-touch"
+  }}
+  <LinkTo @route="contact" class="button">Contact Us</LinkTo>
 </div>
